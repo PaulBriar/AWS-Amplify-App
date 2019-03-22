@@ -9,7 +9,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            Was this even easier than Netlify!? I'll be hunted if I say that out loud...
           </p>
           <a
             className="App-link"
