@@ -17,14 +17,14 @@ class App extends Component {
           <p>
             Was this even easier than Netlify!? I'll be hunted if I say that out loud...
           </p>
-          <Link
+          <a
             className="App-link text-decoration-none"
-            to="https://aws-amplify.github.io/"
+            href="https://aws-amplify.github.io/"
             target="_blank"
             rel="noopener noreferrer"
           >
             We're Amplified!!
-          </Link>
+          </a>
         </body>
         <Footer />
       </Router>
