@@ -1,25 +1,34 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './amplifylogo.jpg';
 import './App.css';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import NavBar from './NavBar';
+import Footer from './Footer';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
+      <Router>
+        <NavBar />
+        <body className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
             Was this even easier than Netlify!? I'll be hunted if I say that out loud...
           </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
+          <Link
+            className="App-link text-decoration-none"
+            to="https://aws-amplify.github.io/"
             target="_blank"
             rel="noopener noreferrer"
           >
             We're Amplified!!
-          </a>
-        </header>
+          </Link>
+        </body>
+        <Footer />
+      </Router>
+
       </div>
     );
   }

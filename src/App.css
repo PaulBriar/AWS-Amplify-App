@@ -31,3 +31,13 @@
     transform: rotate(360deg);
   }
 }
+
+.nav-links {
+  margin-left: .5rem;
+  margin-right: .5rem;
+}
+
+footer {
+  background-color: #282c34;
+  color: white;
+}
